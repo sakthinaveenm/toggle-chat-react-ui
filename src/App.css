@@ -36,3 +36,27 @@
     transform: rotate(360deg);
   }
 }
+
+.dog {
+  position: fixed !important;
+  bottom: 0 !important;
+  right: 22px !important;
+  height: 700px;
+  padding: 0;
+}
+
+@keyframes dog {
+  from {
+    margin-top: 100%;
+    height: 300%;
+  }
+  to {
+    margin-top: 0%;
+    height: 100%;
+  }
+}
+.popdown {
+  position: fixed !important;
+  bottom: -15px !important;
+  right: 22px !important;
+}
